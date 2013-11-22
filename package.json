@@ -1,0 +1,22 @@
+{
+  "name": "persisetnec",
+  "version": "0.0.0",
+  "description": "Persistence engines for scuttlebutts",
+  "main": "persistence.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jesusabdullah/persisetnec.git"
+  },
+  "keywords": [
+    "scuttlebutt",
+    "persistence"
+  ],
+  "author": "Joshua Holbrook",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jesusabdullah/persisetnec/issues"
+  }
+}
