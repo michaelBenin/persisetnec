@@ -1,22 +1,36 @@
 {
   "name": "persisetnec",
   "version": "0.0.0",
-  "description": "Persistence engines for scuttlebutts",
-  "main": "persistence.js",
+  "description": "Bare-bones object document mapper (ODM) for leveldb",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R nyan ./test/"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:jesusabdullah/persisetnec.git"
   },
   "keywords": [
-    "scuttlebutt",
+    "level",
+    "leveldb",
+    "ODM",
+    "model",
+    "models",
+    "object document mapper",
     "persistence"
   ],
   "author": "Joshua Holbrook",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jesusabdullah/persisetnec/issues"
+  },
+  "dependencies": {
+    "level": "^0.18.0",
+    "map-reduce": "^5.1.0",
+    "sublevel": "^2.4.0"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.20.0"
   }
 }
