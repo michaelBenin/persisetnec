@@ -44,6 +44,8 @@ Pony.put('hidalgo', hidalgo, function(err) {
 
 * Schemas. Don't need schemas to persist, implement in another layer.
 * Relationships. These may come later, or be implemented in a separate package.
+* Documentation. The source code is ~40 lines right now so you can probably just read it. For now.
+* Simple name. Yeah, this is a spin on an already obscure inside joke.
 
 ## license:
 
